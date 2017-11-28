@@ -1,8 +1,10 @@
 import './app.scss'
 
 import React from 'react'
+import {connect} from 'react-redux'
 import {BrowserRouter, Route} from 'react-router-dom'
 import Landing from '../landing'
+import Header from '../header'
 
 class App extends React.Component {
   constructor(props) {
@@ -11,12 +13,14 @@ class App extends React.Component {
 
   render(){
     return (
-      <div className='app'>
-        <h1>App</h1>
+      <div className='container h-100 app'>
         <BrowserRouter>
-          <div className='route-component-container'>
+          <div className='container-fluid route-component-container'>
+            <Header />
             <main>
               <Route exact path='/' component={Landing} />
+              <Route exact path='/login' component={Landing} />
+              <Route exact path='/signup' component={Landing} />
             </main>
           </div>
         </BrowserRouter>
@@ -25,4 +29,8 @@ class App extends React.Component {
   }
 }
 
-export default App
+const mapStateToProps = (state) => ({
+  loggedIn: !!state.token,
+})
+
+export default connect(mapStateToProps)(App)

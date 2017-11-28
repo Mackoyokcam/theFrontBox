@@ -1,1 +1,13 @@
 @import 'vars';
+
+.app {
+  padding: 0;
+
+  .route-component-container{
+    padding: 0;
+    .header {
+      outline: 1px solid black;
+      margin: 0;
+    }
+  }
+}

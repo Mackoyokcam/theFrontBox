@@ -14,7 +14,7 @@ import reporter from './lib/redux-reporter.js'
 const store = createStore(reducer, applyMiddleware(thunk, persist(['clientProfile', 'favorites']), reporter))
 
 let container = document.createElement('div')
-container.className = 'root'
+container.className = 'root h-100'
 document.body.appendChild(container)
 
 ReactDom.render(
