@@ -1,6 +1,6 @@
 @import 'vars';
 
-.header {
+.footer {
   padding: 0;
   nav {
     width: 100%;
@@ -10,11 +10,7 @@
       list-style-type: none;
 
       li {
-        align-items: center;
-
-        a {
-          align-items: center;
-        }
+        display: inline;
       }
     }
   }

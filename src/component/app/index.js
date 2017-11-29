@@ -5,6 +5,7 @@ import {connect} from 'react-redux'
 import {BrowserRouter, Route} from 'react-router-dom'
 import Landing from '../landing'
 import Header from '../header'
+import Footer from '../footer'
 
 class App extends React.Component {
   constructor(props) {
@@ -15,13 +16,14 @@ class App extends React.Component {
     return (
       <div className='container h-100 app'>
         <BrowserRouter>
-          <div className='container-fluid route-component-container'>
+          <div className='container-fluid h-100 route-component-container'>
             <Header />
-            <main>
+            <main className='main'>
               <Route exact path='/' component={Landing} />
               <Route exact path='/login' component={Landing} />
               <Route exact path='/signup' component={Landing} />
             </main>
+            <Footer />
           </div>
         </BrowserRouter>
       </div>

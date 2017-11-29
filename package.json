@@ -9,9 +9,9 @@
     "test": "jest"
   },
   "jest": {
-   "moduleNameMapper": {
-     "\\.(svg|eof|ttf|woff|woff2|scss|gif)$": "<rootDir>/src/__test__/mock-asset.js"
-   }
+    "moduleNameMapper": {
+      "\\.(svg|eof|ttf|woff|woff2|scss|gif)$": "<rootDir>/src/__test__/mock-asset.js"
+    }
   },
   "repository": {
     "type": "git",
@@ -38,6 +38,7 @@
     "file-loader": "^1.1.5",
     "html-webpack-plugin": "^2.30.1",
     "node-sass": "^4.7.2",
+    "raw-loader": "^0.5.1",
     "react": "^16.1.1",
     "react-dom": "^16.1.1",
     "react-redux": "^5.0.6",

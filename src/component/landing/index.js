@@ -30,7 +30,6 @@ class Landing extends React.Component {
       location,
     } = this.props
 
-    console.log('WUT', this.props)
     return (
       <div className='container landing'>
         <h1>Landing</h1>

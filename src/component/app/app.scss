@@ -5,9 +5,21 @@
 
   .route-component-container{
     padding: 0;
+
     .header {
       outline: 1px solid black;
       margin: 0;
+      height: 7.5%;
+    }
+
+    .main {
+      height: 85%;
+    }
+
+    .footer {
+      outline: 1px solid black;
+      margin: 0;
+      height: 7.5%;
     }
   }
 }
