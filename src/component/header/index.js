@@ -10,8 +10,7 @@ class Header extends React.Component {
       <header className='d-flex justify-content-center align-items-center header'>
         <nav className='d-flex justify-content-center align-items-center'>
           <ul className='d-flex justify-content-center'>
-            <li className='col-6 d-flex justify-content-start align-items-start'> <Link target="_blank" className="icon-cool" to='/'></Link></li>
-            <li className='col-2 d-flex justify-content-center align-items-center'> <Link to='/'> Home </Link> </li>
+            <li className='col-6 d-flex justify-content-start align-items-start logo'> <Link target="_blank" className="icon-cool" to='/'></Link></li>
             <li className='col-2 d-flex justify-content-center align-items-center'> <Link to='/login'> Login </Link> </li>
             <li className='col-2 d-flex justify-content-center align-items-center'> <Link to='/signup'> Signup </Link> </li>
           </ul>
