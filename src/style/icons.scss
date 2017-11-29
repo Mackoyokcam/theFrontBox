@@ -11,6 +11,7 @@
 
 [class^="icon-"], [class*=" icon-"] {
 	font-family: 'icomoon' !important;
+  font-size: 2em;
 	speak: none;
 	font-style: normal;
 	font-weight: normal;
@@ -49,6 +50,10 @@
 }
 .icon-github:before {
 	content: "\e905";
+}
+
+.icon-cool:before {
+  content: "\e9ec";
 }
 
 /* My icons */

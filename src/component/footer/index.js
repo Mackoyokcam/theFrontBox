@@ -12,6 +12,7 @@ class Footer extends React.Component {
             <li className='col-2'><a href="https://www.facebook.com/mark.hangarter?ref=bookmarks" target="_blank" className="icon-facebook"></a></li>
             <li className='col-2'><a href="https://twitter.com/Yokcamackoy" target="_blank" className="icon-twitter"></a></li>
             <li className='col-2'><a href="https://github.com/Mackoyokcam" target="_blank" className="icon-github"></a></li>
+            <li className='col-2'><a href="https://tenor.com/view/finals-week-procrastination-spongebob-rainbow-study-gif-5407108" target="_blank" className="icon-slack"></a></li>
           </ul>
         </nav>
       </footer>
