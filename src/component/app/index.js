@@ -6,6 +6,8 @@ import {BrowserRouter, Route} from 'react-router-dom'
 import Landing from '../landing'
 import Header from '../header'
 import Footer from '../footer'
+import Profile from '../profile'
+import Locate from '../locate'
 
 class App extends React.Component {
   constructor(props) {
@@ -22,6 +24,8 @@ class App extends React.Component {
               <Route exact path='/' component={Landing} />
               <Route exact path='/login' component={Landing} />
               <Route exact path='/signup' component={Landing} />
+              <Route exact path='/profile' component={Profile} />
+              <Route exact path='/locate' component={Locate} />
             </main>
             <Footer />
           </div>
